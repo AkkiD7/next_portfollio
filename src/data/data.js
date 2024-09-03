@@ -43,7 +43,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Jr. Full Stack Developer",
-    image: "img/projects/project-1.jpg",
+    image: "/img/projects/project-1.jpg",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident assumenda pariatur illum inventore illo minus dicta vero, repudiandae adipisci tempora soluta possimus aut, eveniet ex! Corporis commodi odio aperiam voluptate.",
     technologies: [
@@ -56,7 +56,33 @@ export const PROJECTS = [
   },
   {
     title: "Jr. Full Stack Developer",
-    image: "img/projects/project-2.jpg",
+    image: "/img/projects/project-2.jpg",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident assumenda pariatur illum inventore illo minus dicta vero, repudiandae adipisci tempora soluta possimus aut, eveniet ex! Corporis commodi odio aperiam voluptate.",
+    technologies: [
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "React.js",
+      "MongoDB",
+    ],
+  },
+  {
+    title: "Jr. Full Stack Developer",
+    image: "/img/projects/project-2.jpg",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident assumenda pariatur illum inventore illo minus dicta vero, repudiandae adipisci tempora soluta possimus aut, eveniet ex! Corporis commodi odio aperiam voluptate.",
+    technologies: [
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "React.js",
+      "MongoDB",
+    ],
+  },
+  {
+    title: "Jr. Full Stack Developer",
+    image: "/img/projects/project-2.jpg",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident assumenda pariatur illum inventore illo minus dicta vero, repudiandae adipisci tempora soluta possimus aut, eveniet ex! Corporis commodi odio aperiam voluptate.",
     technologies: [
@@ -68,3 +94,10 @@ export const PROJECTS = [
     ],
   },
 ];
+
+export const CONTACT = {
+  address: "767 Fifth Avenue, New York, NY 10153 ",
+  phoneNo: "+12 4555 666 00",
+  email: "me@example.com",
+};
+

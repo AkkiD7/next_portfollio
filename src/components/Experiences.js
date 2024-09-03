@@ -3,7 +3,7 @@ import { EXPERIENCES } from "@/data/data";
 export default function Experiences() {
   return (
     <>
-      <div className="pb-4">
+      <div className="border-b ☐ border-neutral-900 pb-4">
         <h1 className="my-20 text-center text-4xl">Experiences</h1>
       </div>
       {EXPERIENCES.map((experience, index) => (

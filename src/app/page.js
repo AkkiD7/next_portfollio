@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Technologies from "@/components/Technologies";
 import Experiences from "@/components/Experiences";
 import Projects from "@/components/Projects";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -19,7 +20,8 @@ export default function Home() {
           <About />
           <Technologies />
           <Experiences />
-          {/* <Projects/> */}
+          <Projects />
+          <Contact />
         </div>
       </div>
     </>
