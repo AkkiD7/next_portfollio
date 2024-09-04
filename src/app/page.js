@@ -15,13 +15,13 @@ export default function Home() {
         </div>
 
         <div className="container mx-auto px-8 ">
-          <Navbar />
+           <Navbar />
           <Hero />
           <About />
           <Technologies />
           <Experiences />
           <Projects />
-          <Contact />
+          <Contact /> 
         </div>
       </div>
     </>
