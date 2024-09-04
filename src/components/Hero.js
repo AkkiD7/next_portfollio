@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "@/data/data";
 import Image from "next/image";
 import React from "react";
+import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
@@ -9,9 +10,14 @@ export default function Hero() {
         <div className="flex flex-wrap">
           <div className="w-full lg:w-1/2">
             <div className="flex flex-col items-center lg:items-start">
-              <h1 className="pb-16 text-6xl tracking-tight font-thin lg:mt-16 lg:text-8xl">
+            <motion.h1
+                className="pb-16 text-6xl tracking-tight font-thin lg:mt-16 lg:text-8xl"
+                initial={{ x: -100, opacity: 0 }} // Starting position and opacity
+                animate={{ x: 0, opacity: 1 }} // Ending position and opacity
+                transition={{ duration: 1 }} // Animation duration
+              >
                 Akshay Dabhade
-              </h1>
+              </motion.h1>
               <span className="text-4xl tracking-tight">Jr.Full Stack Developer</span>
               <p className="my-2 max-w-xl py-6 font-light tracking-lighter">
                 {HERO_CONTENT}
