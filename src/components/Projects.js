@@ -21,12 +21,12 @@ export default function Projects() {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className="w-full lg:w-1/4"
+              className="w-full lg:w-1/4 "
             >
               <Image
                 src={project.image}
-                width={150}
-                height={150}
+                width={250}
+                height={300}
                 alt={project.title}
                 className="mb-6 rounded"
               />
@@ -36,7 +36,6 @@ export default function Projects() {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
-              v
               className="w-full max-w-xl lg:w-3/4"
             >
               <h6 className="mb-2 font-semibold">{project.title}</h6>

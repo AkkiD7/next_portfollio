@@ -44,7 +44,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "CCM",
-    image: "/img/projects/project-1.jpg",
+    image: "/img/projects/ccm.png",
     description:
       "A web application using the MERN stack for managing construction projects and records. - Developed both frontend and backend, ensuring seamless integration and efficient data flow. - Integrated Node mailer for sending emails from the Contact section. - Implemented Twilio's WhatsApp API for communication. - Created a comprehensive admin panel, covering frontend to backend development. -Developed functionality for the admin to handle the entire site dynamically. - Implemented secure login and logout using JWT Tokens. - Implemented REST APIs for smooth interaction between client and server.",
     technologies: [
@@ -57,7 +57,7 @@ export const PROJECTS = [
   },
   {
     title: "Caves Land",
-    image: "/img/projects/project-2.jpg",
+    image: "/img/projects/caves-land.png",
     description:
       "Developed a dynamic real estate web application using Next.js, Node.js, and MongoDB. The platform enables users to effortlessly buy and sell properties, providing a seamless and secure experience. Leveraged Next.js for server-side rendering and optimized performance, Node.js for building a scalable backend API, and MongoDB for efficient data storage and retrieval. Focused on creating a user-friendly interface and robust functionality to enhance the overall user experience in the real estate market.",
     technologies: [
@@ -68,7 +68,6 @@ export const PROJECTS = [
       "MongoDB",
     ],
   },
-
 ];
 
 export const CONTACT = {
