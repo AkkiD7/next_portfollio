@@ -46,7 +46,7 @@ export const PROJECTS = [
     title: "CCM",
     image: "/img/projects/ccm.png",
     description:
-      "A web application using the MERN stack for managing construction projects and records. - Developed both frontend and backend, ensuring seamless integration and efficient data flow. - Integrated Node mailer for sending emails from the Contact section. - Implemented Twilio's WhatsApp API for communication. - Created a comprehensive admin panel, covering frontend to backend development. -Developed functionality for the admin to handle the entire site dynamically. - Implemented secure login and logout using JWT Tokens. - Implemented REST APIs for smooth interaction between client and server.",
+      "A web application using the MERN stack for managing construction projects and records. Developed both frontend and backend, ensuring seamless integration and efficient data flow. Integrated Node mailer for sending emails from the Contact section. Implemented Twilio's WhatsApp API for communication. Created a comprehensive admin panel, covering frontend to backend development. Developed functionality for the admin to handle the entire site dynamically. Implemented secure login and logout using JWT Tokens. Implemented REST APIs for smooth interaction between client and server.",
     technologies: [
       "JavaScript",
       "Node.js",
