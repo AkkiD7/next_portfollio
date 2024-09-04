@@ -43,10 +43,10 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Jr. Full Stack Developer",
+    title: "CCM",
     image: "/img/projects/project-1.jpg",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident assumenda pariatur illum inventore illo minus dicta vero, repudiandae adipisci tempora soluta possimus aut, eveniet ex! Corporis commodi odio aperiam voluptate.",
+      "A web application using the MERN stack for managing construction projects and records. - Developed both frontend and backend, ensuring seamless integration and efficient data flow. - Integrated Node mailer for sending emails from the Contact section. - Implemented Twilio's WhatsApp API for communication. - Created a comprehensive admin panel, covering frontend to backend development. -Developed functionality for the admin to handle the entire site dynamically. - Implemented secure login and logout using JWT Tokens. - Implemented REST APIs for smooth interaction between client and server.",
     technologies: [
       "JavaScript",
       "Node.js",
@@ -56,10 +56,10 @@ export const PROJECTS = [
     ],
   },
   {
-    title: "Jr. Full Stack Developer",
+    title: "Caves Land",
     image: "/img/projects/project-2.jpg",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident assumenda pariatur illum inventore illo minus dicta vero, repudiandae adipisci tempora soluta possimus aut, eveniet ex! Corporis commodi odio aperiam voluptate.",
+      "Developed a dynamic real estate web application using Next.js, Node.js, and MongoDB. The platform enables users to effortlessly buy and sell properties, providing a seamless and secure experience. Leveraged Next.js for server-side rendering and optimized performance, Node.js for building a scalable backend API, and MongoDB for efficient data storage and retrieval. Focused on creating a user-friendly interface and robust functionality to enhance the overall user experience in the real estate market.",
     technologies: [
       "JavaScript",
       "Node.js",
@@ -68,32 +68,7 @@ export const PROJECTS = [
       "MongoDB",
     ],
   },
-  {
-    title: "Jr. Full Stack Developer",
-    image: "/img/projects/project-2.jpg",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident assumenda pariatur illum inventore illo minus dicta vero, repudiandae adipisci tempora soluta possimus aut, eveniet ex! Corporis commodi odio aperiam voluptate.",
-    technologies: [
-      "JavaScript",
-      "Node.js",
-      "Express.js",
-      "React.js",
-      "MongoDB",
-    ],
-  },
-  {
-    title: "Jr. Full Stack Developer",
-    image: "/img/projects/project-2.jpg",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident assumenda pariatur illum inventore illo minus dicta vero, repudiandae adipisci tempora soluta possimus aut, eveniet ex! Corporis commodi odio aperiam voluptate.",
-    technologies: [
-      "JavaScript",
-      "Node.js",
-      "Express.js",
-      "React.js",
-      "MongoDB",
-    ],
-  },
+
 ];
 
 export const CONTACT = {
