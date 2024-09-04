@@ -1,3 +1,4 @@
+"use client";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
@@ -15,13 +16,13 @@ export default function Home() {
         </div>
 
         <div className="container mx-auto px-8 ">
-           <Navbar />
+          <Navbar />
           <Hero />
           <About />
           <Technologies />
           <Experiences />
           <Projects />
-          <Contact /> 
+          <Contact />
         </div>
       </div>
     </>

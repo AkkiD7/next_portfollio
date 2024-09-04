@@ -21,7 +21,8 @@ export const EXPERIENCES = [
     role: "Jr. Full Stack Developer",
     company: "Caves Infotech Pvt. Ltd.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident assumenda pariatur illum inventore illo minus dicta vero, repudiandae adipisci tempora soluta possimus aut, eveniet ex! Corporis commodi odio aperiam voluptate.",
+      "Developed and deployed a web application using the MERN stack, reducing page load time by 35% through optimized application management and code splittingImplemented RESTful APIs to improve data handling, resulting in a 25% increase in backend response efficiency.Collaborated with the frontend team to integrate APIs, resulting in faster time-to-market for new features.",
+
     technologies: [
       "JavaScript",
       "Node.js",
@@ -35,7 +36,7 @@ export const EXPERIENCES = [
     role: "Software Developer Intern",
     company: "Nutshell Infosoft Pvt. Ltd.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident assumenda pariatur illum inventore illo minus dicta vero, repudiandae adipisci tempora soluta possimus aut, eveniet ex! Corporis commodi odio aperiam voluptate.",
+      "Engineered responsive and interactive user interfaces by integrating HTML, CSS, JavaScript, and React.js.Resolved issues promptly by troubleshooting and implementing effective solutions to ensure smooth software functionality.Utilized Git for version control and code collaboration.",
     technologies: ["HTML", "CSS", "Javascript", "React"],
   },
 ];
@@ -100,4 +101,3 @@ export const CONTACT = {
   phoneNo: "+91 9922430199",
   email: "akshayyydabhade@gmail.com",
 };
-
