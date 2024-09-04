@@ -1,7 +1,7 @@
 import { HERO_CONTENT } from "@/data/data";
 import Image from "next/image";
 import React from "react";
-import {motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },

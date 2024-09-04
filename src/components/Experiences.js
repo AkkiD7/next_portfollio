@@ -1,11 +1,16 @@
 import React from "react";
 import { EXPERIENCES } from "@/data/data";
+import { motion } from "framer-motion";
 
 export default function Experiences() {
   return (
     <>
       <div className="border-b border-neutral-900 pb-4">
-        <h1 className="my-20 text-center text-4xl">Experiences</h1>
+      <motion.h1
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
+          transition={{ duration: 0.5 }}
+           className="my-20 text-center text-4xl">Experiences</motion.h1>
         <div>
           {EXPERIENCES.map((experience, index) => (
             <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
