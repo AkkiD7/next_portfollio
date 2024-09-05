@@ -1,4 +1,4 @@
-import React from "react";
+import Link from "next/link";
 import { CONTACT } from "@/data/data";
 import { motion } from "framer-motion";
 
@@ -13,7 +13,7 @@ export default function Contact() {
       >
         Get in Touch
       </motion.h1>
-      
+
       <div className="flex flex-wrap lg:justify-center">
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
@@ -21,9 +21,28 @@ export default function Contact() {
           transition={{ duration: 1 }}
           className="w-full lg:w-1/4 p-4  flex flex-col justify-center "
         >
-          <h6 className="mb-2 font-semibold lg:text-left ">Contact Information</h6>
-          <p className="my-2">{CONTACT.address}</p>
-          <p className="my-2">{CONTACT.phoneNo}</p>
+          <h6 className="mb-2 font-semibold lg:text-left ">
+            Contact Information
+          </h6>
+          <Link href={`https://maps.google.com/?q=${CONTACT.address}`} passHref>
+            <p className="my-2 cursor-pointer hover:underline">
+              {CONTACT.address}
+            </p>
+          </Link>
+
+          <Link
+            href={`tel:${CONTACT.phoneNo}`}
+            className="my-2 cursor-pointer hover:underline"
+          >
+            {CONTACT.phoneNo}
+          </Link>
+
+          <Link
+            href={`mailto:${CONTACT.email}`}
+            className="my-2 cursor-pointer hover:underline"
+          >
+            {CONTACT.email}
+          </Link>
         </motion.div>
 
         <motion.div
