@@ -55,6 +55,20 @@ export const PROJECTS = [
       "MongoDB",
     ],
   },
+  {
+    title: "TaskMaster",
+    image: "/img/projects/task-master.png",
+    description:
+      "Developed a comprehensive task management web application using React, Node.js, Express, and Mongoose. The application allows users to seamlessly add, update, and delete tasks, with built-in filtering for viewing all, pending, or completed tasks. Integrated Multer to enable users to upload tasks via CSV files, and also implemented CSV file download functionality for exporting tasks. Leveraged React for a responsive and intuitive user interface, Node.js and Express for a robust backend, and Mongoose for efficient data management.",
+    technologies: [
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "React.js",
+      "MongoDB",
+      "Multer",
+    ],
+  },
 ];
 
 export const CONTACT = {
