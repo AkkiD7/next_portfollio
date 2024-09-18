@@ -51,7 +51,7 @@ export const PROJECTS = [
       "JavaScript",
       "Node.js",
       "Express.js",
-      "React.js",
+      "Next.js",
       "MongoDB",
     ],
   },
