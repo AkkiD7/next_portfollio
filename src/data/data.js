@@ -40,6 +40,8 @@ export const PROJECTS = [
       "Express.js",
       "React.js",
       "MongoDB",
+      "Cloudinary",
+      "Twilio API"
     ],
   },
   {
