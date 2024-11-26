@@ -4,7 +4,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "Jan 2024 - Present",
+    year: "Oct 2023 - Present",
     role: "Jr. Full Stack Developer",
     company: "Caves Infotech Pvt. Ltd.",
     description:
@@ -19,7 +19,7 @@ export const EXPERIENCES = [
     ],
   },
   {
-    year: "Jul 2023 - Dec 2023",
+    year: "Mar 2023 - Sept 2023",
     role: "Software Developer Intern",
     company: "Nutshell Infosoft Pvt. Ltd.",
     description:
