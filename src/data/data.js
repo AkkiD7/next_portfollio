@@ -4,9 +4,9 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "Oct 2023 - Present",
-    role: "Jr. Full Stack Developer",
-    company: "Caves Infotech Pvt. Ltd.",
+    year: "Aug 2023 - Present",
+    role: "Software Developer",
+    company: "Nutshell Infosoft Pvt. Ltd.",
     description:
       "Developed and deployed a web application using the MERN stack, reducing page load time by 35% through optimized application management and code splittingImplemented RESTful APIs to improve data handling, resulting in a 25% increase in backend response efficiency.Collaborated with the frontend team to integrate APIs, resulting in faster time-to-market for new features.",
 
@@ -19,9 +19,9 @@ export const EXPERIENCES = [
     ],
   },
   {
-    year: "Mar 2023 - Sept 2023",
+    year: "Feb 2023 - Jul 2023",
     role: "Software Developer Intern",
-    company: "Nutshell Infosoft Pvt. Ltd.",
+    company: "TechnoKraft Training & Solution PVT. LTD.",
     description:
       "Engineered responsive and interactive user interfaces by integrating HTML, CSS, JavaScript, and React.js.Resolved issues promptly by troubleshooting and implementing effective solutions to ensure smooth software functionality.Utilized Git for version control and code collaboration.",
     technologies: ["HTML", "CSS", "Javascript", "React"],
