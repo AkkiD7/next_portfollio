@@ -33,7 +33,7 @@ export default function Hero() {
                 animate="visible"
                 className="text-4xl tracking-tight"
               >
-                Jr.Full Stack Developer
+                Software Developer
               </motion.span>
               <motion.p
                 variants={container(1)}
